@@ -1,7 +1,7 @@
 package ru.netology.stats;
 
 // Сумма всех продаж
-public class Calculate {
+public class StatsService {
     public int sumOfSales(int[] sales) {
         int sum = 0;
         for (int monthSales : sales) {

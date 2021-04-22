@@ -4,10 +4,10 @@ import org.junit.jupiter.params.ParameterizedTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculateTest {
+class StatsServiceTest {
 
     private final int[] SALES = new int[]{8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-    private final Calculate SERVICE = new Calculate();
+    private final StatsService SERVICE = new StatsService();
 
     @org.junit.jupiter.api.Test
 
